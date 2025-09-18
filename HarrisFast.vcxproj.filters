@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\harris">
+      <UniqueIdentifier>{5f3040c2-8d63-40ef-a629-6d0290000173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc">
+      <UniqueIdentifier>{98523203-2633-49bd-bd63-9aa75afd57cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fast">
+      <UniqueIdentifier>{37c742f7-c416-4e0b-9325-80a87dab27cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NMS">
+      <UniqueIdentifier>{fa4c6e6b-05d1-4f7d-8df9-0187f96050e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\harrisFast">
+      <UniqueIdentifier>{f650cc9b-67dd-42d5-b4ec-6c8f24d02200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\originalFast">
+      <UniqueIdentifier>{c02a8f7e-1ea1-4530-ac56-d71968080ae1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="harris.cpp">
+      <Filter>Source Files\harris</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="fast.cpp">
+      <Filter>Source Files\fast</Filter>
+    </ClCompile>
+    <ClCompile Include="nms.cpp">
+      <Filter>Source Files\NMS</Filter>
+    </ClCompile>
+    <ClCompile Include="harrisFast.cpp">
+      <Filter>Source Files\harrisFast</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="harris.h">
+      <Filter>Source Files\harris</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Source Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>Source Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="fast.h">
+      <Filter>Source Files\fast</Filter>
+    </ClInclude>
+    <ClInclude Include="nms.h">
+      <Filter>Source Files\NMS</Filter>
+    </ClInclude>
+    <ClInclude Include="harrisFast.h">
+      <Filter>Source Files\harrisFast</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
